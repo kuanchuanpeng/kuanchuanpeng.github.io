@@ -1172,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# supporters Section
+# supporters Section (VBSD_series)
 --------------------------------------------------------------*/
 
 #VBSD_series {
@@ -1218,6 +1218,55 @@ body.mobile-nav-active #mobile-nav-toggle {
 #VBSD_series img {
   transition: all 0.4s ease-in-out;
 }
+
+/*--------------------------------------------------------------
+# supporters Section (related_events)
+--------------------------------------------------------------*/
+
+#related_events {
+  padding: 60px 0; 
+
+  /* background: url("../img/venue1.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0; */
+}
+
+#related_events .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#related_events .supporter-logo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(128, 128, 128, 0.5);
+  height: 160px;
+}
+
+#related_events .supporter-logo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#related_events img {
+  transition: all 0.4s ease-in-out;
+}
+
 
 /*--------------------------------------------------------------
 # F.A.Q Section
